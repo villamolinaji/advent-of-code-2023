@@ -119,7 +119,7 @@ long SolvePart2()
 	}
 }
 
-static long CalculateLeastCommonMultiple(long[] numbers)
+long CalculateLeastCommonMultiple(long[] numbers)
 {
 	long result = 1;
 	foreach (long number in numbers)
@@ -129,7 +129,7 @@ static long CalculateLeastCommonMultiple(long[] numbers)
 	return result;
 }
 
-static long CalculateGreatestCommonDivisor(long a, long b)
+long CalculateGreatestCommonDivisor(long a, long b)
 {
 	while (b != 0)
 	{
